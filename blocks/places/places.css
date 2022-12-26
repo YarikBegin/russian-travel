@@ -1,0 +1,29 @@
+.places {
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-bottom: 92px;
+  max-width: 984px;
+  display: grid;
+  gap: 80px;
+}
+@media screen and (max-width: 1024px){
+  .places {
+    width: 90.625%;
+  }
+}
+@media screen and (max-width: 768px){
+  .places {
+    width: 93.75%;
+    gap: 73px;
+    padding-top: 88px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (max-width: 320px){
+  .places {
+    width: 100%;
+    gap: 50px;
+    padding-top: 64px;
+    padding-bottom: 66px;
+  }
+}
