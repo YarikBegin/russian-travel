@@ -5,12 +5,12 @@
 
 @media screen and (max-width:1024px) {
     .lead {
-        width: 928px;
+        max-width: 928px;
     }
 }
 @media  screen and (max-width:1023px) {
   .lead {
-    width: 90,625%;
+    width: 90.625%;
   }
 }
 @media screen and (max-width: 768px) {
