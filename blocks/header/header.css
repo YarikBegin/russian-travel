@@ -7,12 +7,6 @@
     justify-content: space-between;
     align-items: center;
 }
-@media screen and (max-width:1280px){
-  .header{
-    width: 92.5%;
-    margin: 28px auto 56px;
-  }
-}
 @media screen and (max-width:1024px){
     .header {
         width: 90.625%;
@@ -22,7 +16,6 @@
 @media screen and (max-width:768px){
     .header {
         width: 93.75%;
-        margin: 28px auto 48px;
     }
 }
 @media screen and (max-width:320px){
