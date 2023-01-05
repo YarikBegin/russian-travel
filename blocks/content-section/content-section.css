@@ -1,0 +1,28 @@
+.content-section {
+  max-width: 984px;
+  margin: 0 auto;
+  }
+
+  @media (max-width: 1024px) {
+  .content-section {
+    max-width: 928px;
+  }
+  }
+  @media  screen and (max-width:1023px) {
+    .content-section {
+      width: 90.625%;
+    }
+  }
+  @media (max-width: 768px) {
+  .content-section {
+    margin: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  }
+  @media (max-width: 320px) {
+    .content-section {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
