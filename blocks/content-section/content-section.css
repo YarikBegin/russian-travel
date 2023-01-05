@@ -1,6 +1,7 @@
 .content-section {
   max-width: 984px;
   margin: 0 auto;
+  box-sizing: border-box;
   }
 
   @media (max-width: 1024px) {
@@ -22,7 +23,6 @@
   }
   @media (max-width: 320px) {
     .content-section {
-      box-sizing: border-box;
       width: 100%;
       padding-left: 16px;
       padding-right: 16px;
